@@ -1,6 +1,3 @@
-server:
-  port: 6969
-
 - name: Software & Startups
   # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
   # hide-desktop-navigation: true
@@ -43,6 +40,9 @@ server:
               show-thumbnails: true
             - type: reddit
               subreddit: SideProject
+              show-thumbnails: true
+            - type: reddit
+              subreddit: IMadeThis
               show-thumbnails: true
 
     - size: small
